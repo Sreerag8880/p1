@@ -1,0 +1,79 @@
+.movie {
+    width: 230px;
+    height: 412px;
+    border: 1px rgb(218, 197, 197) solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgba(245, 243, 243, 0.519);
+   transition: 1s;
+}
+
+body {
+    background-image: url("./image/tn.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 83px;
+}
+
+.image1 {
+    border-radius: 8px;
+    width: 100%;
+    height: 45%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h3 {
+
+    margin-left: 93px;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+    margin-top: 0;
+}
+
+h4 {
+    margin-left: 39px;
+    margin-top: 0;
+}
+
+#h32 {
+    margin-left: 65px;
+}
+
+div {
+    border: ;
+}
+
+.smalldiv1 {
+    width: 80%;
+    height: 50px;
+    border: 1px rgb(36, 19, 19) solid;
+    margin-left: 22px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+.movie:hover{
+    transform: scale(1.05);
+
+}
+.smalldiv1:hover{
+    transform: scale(1.02);
+}
